@@ -5,7 +5,7 @@ Android app for Boston University.
 
 Provide the following features:
 
-* **BU Bus**
+1. **BU Bus**
 Live tracking of the BU shuttle by querying on board GPS data and displaying it on Google Maps
 
 2. **BU Today**

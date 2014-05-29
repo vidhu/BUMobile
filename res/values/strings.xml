@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">BU Mobile</string>
+    
+	<string name="icon_bus_desc">Live BU Shuttle Tracking</string>
+	<string name="app_bus">BU Shuttle</string>
+	
+	<string name="icon_butoday_desc">Latest BU Today news</string>
+	<string name="app_butoday">BU Today</string>
+	
+	<string name="icon_bucalendar_desc">BU Calendar</string>
+	<string name="app_bucalendar">BU Calendar</string>
+	
+	<string name="icon_buchat_desc">BU Chat</string>
+	<string name="app_buchat">BU Chat</string>
+</resources>

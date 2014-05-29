@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/default_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/home_icon_row"
+        android:orientation="horizontal" >
+
+
+
+        <ImageButton
+            android:id="@+id/ibtn_home_bus"
+            style="@style/home_icon"
+            android:background="@drawable/ico_bus_selector"
+            android:contentDescription="@string/icon_bus_desc"
+            android:src="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/ibtn_home_butoday"
+            style="@style/home_icon"
+            android:background="@drawable/ico_butoday_selector"
+            android:contentDescription="@string/icon_bus_desc"
+            android:src="@null" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        
+        <ImageButton
+            android:id="@+id/ibtn_home_calendar"
+            style="@style/home_icon"
+            android:background="@drawable/ico_calendar_selector"
+            android:contentDescription="@string/icon_bus_desc"
+            android:src="@null" />
+
+
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/home_icon_row"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtn_home_buchat"
+            style="@style/home_icon"
+            android:background="@drawable/ico_buchat_selector"
+            android:contentDescription="@string/icon_butoday_desc"
+            android:src="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>

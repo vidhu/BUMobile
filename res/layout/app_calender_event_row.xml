@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/app_calender_event_row_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/app_calender_event_row_time"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:textColor="#9caab6" />
+    </LinearLayout>
+
+</LinearLayout>
